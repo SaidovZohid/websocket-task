@@ -5,9 +5,8 @@ This project implements a WebSocket service in Go, designed to handle client con
 ## Table of Contents
 
 - [Setup and Running Instructions](#setup-and-running-instructions)
-- [Design Decisions](#design-decisions)
 - [API Documentation](#api-documentation)
-- [Testing and Simulations](#testing-and-simulations)
+- [Testing](#testing)
 
 ## Setup and Running Instructions
 
@@ -50,7 +49,7 @@ ws://localhost:8080/ws?user_id=<YOUR_USER_ID>
 ### Message Broadcasting
 - Broadcast: The server broadcasts messages to all connected clients. Each client receives messages only when they are online.
 
-##Testing
+## Testing
 
 ### Running Tests
 To run the unit tests for the WebSocket service, execute:
